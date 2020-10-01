@@ -2,7 +2,7 @@ const shortid = require('shortid');
 
 let users = [
     {
-        id: 1, // hint: use the shortid npm package to generate it
+        id: shortid.generate(), // hint: use the shortid npm package to generate it
         name: "Jane Doe", // String, required
         bio: "Not Tarzan's Wife, another Jane",  // String, required
       }
